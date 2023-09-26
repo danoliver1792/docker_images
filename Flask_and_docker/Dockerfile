@@ -24,3 +24,4 @@ CMD ["python", "./app.py"]
 # no Kubernetes, criando o deployment para rodas os containers das aplicações nos pods
 
 # kubectl create deployment flask-deployment --danoliver1792/flask-kub-projeto
+
