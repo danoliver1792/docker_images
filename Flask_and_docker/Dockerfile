@@ -25,3 +25,4 @@ CMD ["python", "./app.py"]
 
 # kubectl create deployment flask-deployment --danoliver1792/flask-kub-projeto
 
+# minikube service flask-deployment
