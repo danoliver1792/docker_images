@@ -26,3 +26,10 @@ CMD ["python", "./app.py"]
 # kubectl create deployment flask-deployment --danoliver1792/flask-kub-projeto
 
 # minikube service flask-deployment
+
+# atualizando a imagem
+# docker build -t danoliver1792/flask-hub-projeto:2 .
+# docker push danoliver1792/flask-kub-orjeto:2
+# kubectl set image deployment/flask-deployment flask-projeto=danoliver1792/flask-kub-projeto:2
+# kubectl get deplyments
+# kubectl get pods
